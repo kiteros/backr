@@ -32,6 +32,7 @@ public class head extends AppCompatActivity {
     int progressState = 0;
     int goodAnswer = 0;
     boolean isLocked = false;
+    CountDownTimer t;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,17 +46,25 @@ public class head extends AppCompatActivity {
         time = (TextView) findViewById(R.id.time);
         bar = (ProgressBar) findViewById(R.id.progress);
         goodAnswer = 0;
-        new CountDownTimer(60000, 1000) {
 
+        t = new CountDownTimer(20000, 1000) {
+            String plus = "";
             public void onTick(long millisUntilFinished) {
-                time.setText("00:" + millisUntilFinished / 1000);
+                if((millisUntilFinished / 1000) % 60 < 10){
+                    plus = "0";
+                }else{
+                    plus = "";
+                }
+                time.setText("00:" + plus + millisUntilFinished / 1000);
             }
 
             public void onFinish() {
                 time.setText("finished");
                 endApplication();
             }
-        }.start();
+        };
+
+        t.start();
         bar.setProgress(progressState);
 
         String root = Environment.getExternalStorageDirectory().getAbsolutePath();
@@ -108,14 +117,21 @@ public class head extends AppCompatActivity {
         view.setImageBitmap(allTenHeadImages[0]);
     }
 
+    public void onDestroy() {
+        super.onDestroy();
+        t.cancel();
+    }
+
     private void endApplication(){
+
+        t.cancel();
         Intent foo = new Intent();
         foo.setClass(getApplicationContext(), results.class);
-        foo.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        getApplicationContext().startActivity(foo);
+        foo.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(foo);
+        finish();
 
 
-        this.finish();
     }
 
     private void printhead(int idBac){

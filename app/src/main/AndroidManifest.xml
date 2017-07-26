@@ -30,6 +30,15 @@
         <activity android:name=".head20"
             android:screenOrientation="portrait"
             ></activity>
+        <activity android:name=".head50"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".results20"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".results50"
+            android:screenOrientation="portrait"
+            />
     </application>
 
 </manifest>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9ac4f4e411037a8f4a719fe0dd07d60afe8634bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_15444b2f664bbf23a56360b165ca9576e6e34577/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_d58df0fdbb09084a6313759c8f89d39c0c4547bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_326a09a1ff1f0edce0075067c5654a977431e2cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_9c832eef149358d6eff3c12414f6a68e3563e4b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_62c82a159da46a6582879ffd59cc9bdc233e867e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_04fa2544b15cb5b2b70eb566c1c51de4f627fa11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7a43db4fba402efc7491992b27ce50df1d49e9fc">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_729087472c23369a805d2d3220c62c2bf6d11064/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="08d717b39e42230d678a4f136b235c6a46c99f4d">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8bf06543c01de0902a331e809e4b320e388b291d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_8111319157564dac4204728647b99cbdfe3dfae1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_3c42d8c1f296fdf2e3d0ce2ca23c5352d4d66b37/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_81149e34f404bca4c6ee87fb735a56b5e0ab8dee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_fbe3da4481ef294cbc16bfaee12bab41ff786897/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_7a9e9c7e420a41ca2c8271ed7b306dfa4c1cb4b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_4376015f22565e636f9e38cae96a280ce23c0e14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mcxiaoke.volley-library-aar-1.0.0_bf51a061f165e7058e64fa069d8ed188c34fba4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.volley-volley-1.0.0_8c6f132a9a5d44d53694736da1d0e5923f7ea1fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_d3d03f56b5ed68426d3b1aa65f8d6d2f1805e542/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bc31c5012f76fe05ba7093c7c0f5aab957772762/classes.dex" />
+    </item>
+
+</items>

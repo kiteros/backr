@@ -30,6 +30,7 @@ public class head20 extends AppCompatActivity {
     ProgressBar bar;
     int progressState = 0;
     int goodAnswer = 0;
+    CountDownTimer t;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,22 +44,30 @@ public class head20 extends AppCompatActivity {
         time = (TextView) findViewById(R.id.time);
         bar = (ProgressBar) findViewById(R.id.progress);
 
-        new CountDownTimer(12000, 1000) {
-
+        t = new CountDownTimer(35000, 1000) {
+            String plus = "";
             public void onTick(long millisUntilFinished) {
-                time.setText((millisUntilFinished / 1000) - (millisUntilFinished / 1000) % 60 + ":" + (millisUntilFinished / 1000) % 60);
+
+                if((millisUntilFinished / 1000) % 60 < 10){
+                    plus = "0";
+                }else{
+                    plus = "";
+                }
+                time.setText((millisUntilFinished / 1000)/60 + ":" + plus + (millisUntilFinished / 1000) % 60);
             }
 
             public void onFinish() {
                 time.setText("finished");
+                endApplication();
             }
-        }.start();
+        };
+        t.start();
         bar.setProgress(progressState);
 
         String root = Environment.getExternalStorageDirectory().getAbsolutePath();
 
         for(int x = 0; x < 20; x++){
-            File imgFile = new  File(root + "/allImages/" + String.valueOf(variables.getHead10(x)) + ".jpg");
+            File imgFile = new  File(root + "/allImages/" + String.valueOf(variables.getHead20(x)) + ".jpg");
 
             if(imgFile.exists()){
 
@@ -96,12 +105,17 @@ public class head20 extends AppCompatActivity {
 
     private void endApplication(){
         Intent foo = new Intent();
-        foo.setClass(getApplicationContext(), results.class);
+        foo.setClass(getApplicationContext(), results20.class);
         foo.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         getApplicationContext().startActivity(foo);
 
 
         this.finish();
+    }
+
+    public void onDestroy() {
+        super.onDestroy();
+        t.cancel();
     }
 
     private void printhead(int idBac){
@@ -113,7 +127,7 @@ public class head20 extends AppCompatActivity {
          */
 
         if(currentIdPic < 20){
-            if(variables.getBacs(currentIdPic) == idBac){
+            if(variables.getBacs20(currentIdPic) == idBac){
                 //Le joueur à répondu juste
 
                 //Afficher une animation
@@ -160,7 +174,7 @@ public class head20 extends AppCompatActivity {
                                     new File(dir, children[i]).delete();
                                 }
                             }
-                            variables.setTenScore(goodAnswer);
+                            variables.setTwentyScore(goodAnswer);
                             endApplication();
 
                         }
@@ -191,7 +205,7 @@ public class head20 extends AppCompatActivity {
                         break;
                 }
 
-                switch(variables.getBacs(currentIdPic)){
+                switch(variables.getBacs20(currentIdPic)){
                     case 0:
                         s.setBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
                         break;

@@ -89,7 +89,18 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
     }
 
     protected void onPostExecute(Bitmap result) {
-        pr.setProgress(pr.getProgress() + 10);
+        switch(max){
+            case 9:
+                pr.setProgress(pr.getProgress() + 10);
+                break;
+            case 19:
+                pr.setProgress(pr.getProgress() + 5);
+                break;
+            case 49:
+                pr.setProgress(pr.getProgress() + 2);
+                break;
+        }
+
         File folder = new File(Environment.getExternalStorageDirectory() +
                 File.separator + "allImages");
         boolean success = true;
@@ -102,14 +113,34 @@ public class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
             SaveImage(result, String.valueOf(headId));
             if(id == max){
 
+                if((pr != null) && pr.isShowing()){
+                    pr.dismiss();
+                }
+
                 //Charge new activity
                 Intent foo = new Intent();
-                foo.setClass(context.getApplicationContext(), head.class);
-                foo.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                context.startActivity(foo);
-                /*if(ab != null){
-                    ab.finish();
-                }*/
+                switch(max){
+                    case 9:
+
+                        foo.setClass(context.getApplicationContext(), head.class);
+                        foo.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        context.startActivity(foo);
+                        break;
+                    case 19:
+
+                        foo.setClass(context.getApplicationContext(), head20.class);
+                        foo.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        context.startActivity(foo);
+                        break;
+                    case 49:
+
+                        foo.setClass(context.getApplicationContext(), head50.class);
+                        foo.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        context.startActivity(foo);
+                        break;
+                }
+
+
 
             }
         } else {
