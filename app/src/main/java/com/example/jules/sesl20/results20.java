@@ -3,36 +3,112 @@ package com.example.jules.sesl20;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
+
 import java.util.concurrent.ExecutionException;
 
 public class results20 extends AppCompatActivity {
 
     ProgressDialog progress;
+    private InterstitialAd mInterstitialAd;
+    private InterstitialAd mInterstitialAd2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_results);
 
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId(variables.getUnitId());
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+        mInterstitialAd2 = new InterstitialAd(this);
+        mInterstitialAd2.setAdUnitId(variables.getUnitId());
+        mInterstitialAd2.loadAd(new AdRequest.Builder().build());
+
         final ImageButton restart = (ImageButton) findViewById(R.id.res);
 
         Button l = (Button) findViewById(R.id.button);
         l.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                finish();
+                if (mInterstitialAd.isLoaded()) {
+                    mInterstitialAd.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
 
             }
         });
 
-        restart.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+                Log.i("Ads", "onAdLoaded");
+            }
 
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                // Code to be executed when an ad request fails.
+                Log.i("Ads", "onAdFailedToLoad");
+            }
+
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when the ad is displayed.
+                Log.i("Ads", "onAdOpened");
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+                // Code to be executed when the user has left the app.
+                Log.i("Ads", "onAdLeftApplication");
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Code to be executed when when the interstitial ad is closed.
+                Log.i("Ads", "onAdClosed");
+                finish();
+            }
+        });
+
+        mInterstitialAd2.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+                Log.i("Ads", "onAdLoaded");
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                // Code to be executed when an ad request fails.
+                Log.i("Ads", "onAdFailedToLoad");
+            }
+
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when the ad is displayed.
+                Log.i("Ads", "onAdOpened");
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+                // Code to be executed when the user has left the app.
+                Log.i("Ads", "onAdLeftApplication");
+            }
+
+            @Override
+            public void onAdClosed() {
                 variables.flush();
                 progress = new ProgressDialog(results20.this);
                 progress.setMessage("Downloading pictures");
@@ -62,9 +138,23 @@ public class results20 extends AppCompatActivity {
                     im2.execute("http://www.jeschbach.com/sesl/photos/" + variables.getHead20(x) + ".jpg");
                 }
 
+            }
+        });
+
+        restart.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if (mInterstitialAd2.isLoaded()) {
+                    mInterstitialAd2.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
+
+
+
 
             }
         });
+
 
         TextView textView = (TextView) findViewById(R.id.textView);
         textView.setText(variables.getTwentyScore() + "/20");

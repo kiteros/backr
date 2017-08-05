@@ -3,21 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9ac4f4e411037a8f4a719fe0dd07d60afe8634bb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_15444b2f664bbf23a56360b165ca9576e6e34577/classes.dex" />
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.2.0_b5235b4828aa15a8887bfc64104bafd52b42f92e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,39 +21,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_326a09a1ff1f0edce0075067c5654a977431e2cc/classes.dex" />
+        sha1="d410043f93e71bb0179ba86b85726dd080f14b79">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-11.0.0_303902035e69b682e340ef65794b9eef2f604434/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jar="/home/jules/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_9c832eef149358d6eff3c12414f6a68e3563e4b0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/jules/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_62c82a159da46a6582879ffd59cc9bdc233e867e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_04fa2544b15cb5b2b70eb566c1c51de4f627fa11/classes.dex" />
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_39527853268310f2127fcc5b008cbe354ce07b9e/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -70,8 +43,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="7a43db4fba402efc7491992b27ce50df1d49e9fc">
+        sha1="941e7051b8100a448cb38a1d36835e38f8cc0c55">
         <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_729087472c23369a805d2d3220c62c2bf6d11064/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.2.0_f9cceb09a8a9a2eb94e6e5488a51d6c9244c6be2/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -79,17 +61,35 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="08d717b39e42230d678a4f136b235c6a46c99f4d">
+        sha1="aeed07d04b79051f3a34bbc4395743ddd8fe8fcf">
         <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8bf06543c01de0902a331e809e4b320e388b291d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_8111319157564dac4204728647b99cbdfe3dfae1/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.2.0_99a09cf37e69e1248415a6e46003b8b1ea7c75b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2484ee9a66188155c9c792ff279d4a34c8e1d22e">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-11.0.0_cb406107ee0722e1f2531531267f71e635535f20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.2.0_2b3a248d7549ff014b67b09f05296b40540213bc/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -102,12 +102,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_81149e34f404bca4c6ee87fb735a56b5e0ab8dee/classes.dex" />
+        sha1="700b670ed3f9cf4b240081993c6004817866985a">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-11.0.0_cea014ea518f1dd3b3b5816e38466421c7cf6b9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d74bfb5306aee8dbfa746b48842f87c01c64f6ac">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-11.0.0_12534921936a5bdbebf1a14606b5859279172279/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.2.0_75ea314fa3fa4e97a46469020cfa12843ff136a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e72c498ef3e345135b6bfdf7fc83c6b905228ade">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-11.0.0_cc043214918b25bd38e8af90502c1899b1638da3/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,30 +147,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_7a9e9c7e420a41ca2c8271ed7b306dfa4c1cb4b7/classes.dex" />
+        sha1="d68bbf92de9721b02a31a3833abfdc90144c7e39">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-11.0.0_7f4799d391fb46fda2fbfe9d3a322fa5e515c4a2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_4376015f22565e636f9e38cae96a280ce23c0e14/classes.dex" />
+        sha1="98c1221c29c1a146edc6be342039cc242f9773c5">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-11.0.0_07d11c10f2adc6abca3e7f53da38e6ad6bd0dc6a/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mcxiaoke.volley-library-aar-1.0.0_bf51a061f165e7058e64fa069d8ed188c34fba4a/classes.dex" />
+        sha1="2018b324dbe57d9a1304a0b6a97ece59de258da6">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-11.0.0_6cc57a92ee1ed05f44c70138c128cf45a90ff19d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.2.0_5f3a878083c81283a5a1292928e6ddb2aca7a7ee/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -156,21 +192,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library-aar/1.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_d3d03f56b5ed68426d3b1aa65f8d6d2f1805e542/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/jules/programm/SESL2.0/backr/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bc31c5012f76fe05ba7093c7c0f5aab957772762/classes.dex" />
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/home/jules/programm/SESL2.0/backr/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mcxiaoke.volley-library-aar-1.0.0_bf51a061f165e7058e64fa069d8ed188c34fba4a/classes.dex" />
     </item>
 
 </items>

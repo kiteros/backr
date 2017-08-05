@@ -59,6 +59,8 @@ public class head50 extends AppCompatActivity {
 
             public void onFinish() {
                 time.setText("finished");
+                variables.setTenScore(goodAnswer);
+                endApplication();
             }
         };
         t.start();

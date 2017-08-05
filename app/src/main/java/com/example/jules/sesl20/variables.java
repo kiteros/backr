@@ -100,4 +100,8 @@ public class variables {
         Head20 = new int[20];
         Head50 = new int[50];
     }
+
+    public static String getUnitId(){
+        return "ca-app-pub-3940256099942544/1033173712";
+    }
 }

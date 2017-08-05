@@ -12,6 +12,7 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 
@@ -21,6 +22,7 @@ public class results extends AppCompatActivity {
 
     ProgressDialog progress;
     private InterstitialAd mInterstitialAd;
+    private InterstitialAd mInterstitialAd2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +33,14 @@ public class results extends AppCompatActivity {
 
         final ImageButton restart = (ImageButton) findViewById(R.id.res);
 
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId(variables.getUnitId());
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
+        mInterstitialAd2 = new InterstitialAd(this);
+        mInterstitialAd2.setAdUnitId(variables.getUnitId());
+        mInterstitialAd2.loadAd(new AdRequest.Builder().build());
+
         Button l = (Button) findViewById(R.id.button);
         l.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -40,14 +50,71 @@ public class results extends AppCompatActivity {
                     Log.d("TAG", "The interstitial wasn't loaded yet.");
                 }
 
-                //finish();
+
 
             }
         });
 
-        restart.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+                Log.i("Ads", "onAdLoaded");
+            }
 
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                // Code to be executed when an ad request fails.
+                Log.i("Ads", "onAdFailedToLoad");
+            }
+
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when the ad is displayed.
+                Log.i("Ads", "onAdOpened");
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+                // Code to be executed when the user has left the app.
+                Log.i("Ads", "onAdLeftApplication");
+            }
+
+            @Override
+            public void onAdClosed() {
+                // Code to be executed when when the interstitial ad is closed.
+                Log.i("Ads", "onAdClosed");
+                finish();
+            }
+        });
+
+        mInterstitialAd2.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+                Log.i("Ads", "onAdLoaded");
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                // Code to be executed when an ad request fails.
+                Log.i("Ads", "onAdFailedToLoad");
+            }
+
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when the ad is displayed.
+                Log.i("Ads", "onAdOpened");
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+                // Code to be executed when the user has left the app.
+                Log.i("Ads", "onAdLeftApplication");
+            }
+
+            @Override
+            public void onAdClosed() {
                 variables.flush();
                 progress = new ProgressDialog(results.this);
                 progress.setMessage("Downloading pictures");
@@ -76,6 +143,19 @@ public class results extends AppCompatActivity {
                     DownloadImageTask im2 = new DownloadImageTask(getApplicationContext(), variables.getHead10(x), x, 9, progress);
                     im2.execute("http://www.jeschbach.com/sesl/photos/" + variables.getHead10(x) + ".jpg");
                 }
+            }
+        });
+
+
+        restart.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                if (mInterstitialAd2.isLoaded()) {
+                    mInterstitialAd2.show();
+                } else {
+                    Log.d("TAG", "The interstitial wasn't loaded yet.");
+                }
+
+
 
 
             }
@@ -87,9 +167,7 @@ public class results extends AppCompatActivity {
         ProgressBar bar = (ProgressBar) findViewById(R.id.progressBar);
         bar.setProgress(variables.getTenScore() * 10);
 
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
+
 
 
     }

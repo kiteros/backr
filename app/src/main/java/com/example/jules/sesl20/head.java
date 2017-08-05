@@ -47,7 +47,7 @@ public class head extends AppCompatActivity {
         bar = (ProgressBar) findViewById(R.id.progress);
         goodAnswer = 0;
 
-        t = new CountDownTimer(20000, 1000) {
+        t = new CountDownTimer(30000, 1000) {
             String plus = "";
             public void onTick(long millisUntilFinished) {
                 if((millisUntilFinished / 1000) % 60 < 10){
@@ -60,6 +60,7 @@ public class head extends AppCompatActivity {
 
             public void onFinish() {
                 time.setText("finished");
+                variables.setTenScore(goodAnswer);
                 endApplication();
             }
         };
